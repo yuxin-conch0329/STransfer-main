@@ -1,20 +1,10 @@
 - os
 - random
 - collections (Counter)
-- numpy as np
-- scipy.sparse as sp
-- pandas as pd
-- torch
-- torch.nn as nn
-- torch.nn.functional as F
-- torch.optim as optim
-- torch.backends.cudnn
-- torch.nn.Parameter
-- torch_geometric.nn.conv.MessagePassing
-- torch_geometric.nn.inits.glorot
-- torch_geometric.nn.inits.zeros
-- torch_geometric.utils.add_remaining_self_loops
-- torch_scatter.scatter_add
-- scanpy as sc
-- anndata.AnnData
-- sklearn.metrics
+- numpy==1.26.4
+- scipy==1.10.1
+- pandas==2.2.3
+- torch==2.4.0+cu118
+- torch_geometric==2.5.3
+- scanpy==1.10.3
+- anndata==0.10.9
