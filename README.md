@@ -19,18 +19,14 @@ It is recommended the user proceeds as follows.
 
 ## Directory
 
-- `Data` stores the datasets
-- `Figures`stores the flow picture
-- `plot` stores the visualization of the code
+- `Figures`stores the flow picture and five datasets pictures
 - `STransfer` stores the main script of STransfer
-- `test` contains the testing script of STransfer on the datasets in the manuscript and running script of baseline methods. 
+- `test` contains the testing script of STransfer on the datasets in the manuscript
 
 ## Data source and reference
 
-All datasets used in our study are from previously published studies. The DLPFC
- dataset can be accessible via the spatialLIBD project. The HPR and mPFC datasets
- correspond to Data 25–29 and Data 31–33, respectively, and are available from the
- SDMBench repository.
+All datasets used in our study were obtained from previously published sources. The DLPFC dataset is publicly available through the spatialLIBD project. The HPR and
+mPFC datasets correspond to Data 25–29 and Data 31–33, respectively, and can be accessed from the SDMBench repository. The CRC dataset is available for download from the CRC website. The OC dataset can be obtained from the Spatch project.
 
 ## Install necessary packages
 
@@ -66,4 +62,8 @@ Contains data processing and preprocessing methods for the MERFISH dataset from 
 `mPFC.py`
 Contains code for processing the STARmap dataset of the medial prefrontal cortex (mPFC).
 
-These two files (HPR.py and mPFC.py) are placed in the test folder.
+`CRC.py`
+Contains code for processing the dataset of the Colorectal Cancer Tumors (CRC).
+
+`OC.py`
+Contains code for processing the Ovarian Cancer Datasets Across Multiple Platforms(OC).
